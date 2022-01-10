@@ -1,8 +1,4 @@
-; file created by exporting using c1541 (VICE)
-; and converting with petcat (VICE)
-;
-; original wordle game by Josh Wardle 
-; at https://www.powerlanguage.co.uk/wordle/
+
 
 ;wordle ==0801==
    10 print"{clr}"
@@ -13,12 +9,14 @@
    33 p$="{red}Z" : at=0
    35 dim ga$(5)
    40 nw=1510:dim wd$(nw)
-   45 gosub 2000 : rem load data
    50 printtab(15)"{yel}w o r d l e"
    51 print"{gry3}DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"
-   55 print" {pur}c=64 conversion by spiro harvey, 2021"
+   55 print" {pur}c=64 conversion by spiro harvey, 2022"
+   56 print"         {gry1}original by josh wardle"
    59 print"{gry3}DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"
-   60 printtab(15);"{down}{wht}how to play"
+   60 gosub 2000 : rem load data
+   62 print"{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}                                {up}{up}{up}"
+   65 printtab(15);"{down}{wht}how to play"
    70 print" {down}{gry3}guess the {yel}wordle{gry3} in 6 tries."
    80 print" {down}after each guess, the colour of the"
    90 print" tiles will change to show how close"
@@ -67,8 +65,8 @@
  1530 gosub 7000 : rem read guess
  1550 next
  1600 rem ----------------- end game ---
- 1610 printtab(12);"{yel}sorry, the word was {lred}"pw$"{yel}."
- 1620 printtab(14);"{gry3}try again another day."
+ 1610 printtab(7);"{yel}sorry, the word was {lred}"pw$"{yel}."
+ 1620 printtab(9);"{gry3}try again another day."
  1630 end
  2000 rem ------------- data loader ---
  2010 printtab(12)"{down}{down}{cyn}loading data...";
@@ -81,7 +79,6 @@
  2060 if c=4 then c=0
  2065 c=c+1
  2070 next
- 2080 print"{clr}"
  2099 return
  7000 :
  7001 rem --------------- read guess ---
