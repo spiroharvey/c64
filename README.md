@@ -29,7 +29,17 @@ Upside: XC BASIC works on .bas files, BASICv2 only works on .prg files, which do
 
 But if you're happy with that quirk, both are good.
 
-### 3. Download VICE.
+### 3. Get KickAssembler for assembly coding
+
+If you want to do assembly coding for your c64, then KickAssembler kicks arse. I don't endorse kicking asses because donkeys are very nice animals.
+
+http://theweb.dk/KickAssembler
+
+https://marketplace.visualstudio.com/items?itemName=CaptainJiNX.kickass-c64
+
+Bacchus/FLT has a video about [setting up a c64 assembler environment](https://youtu.be/mjPucWkmqCg?t=2262). He uses Paul Hocker's VSCode extension, where I prefer CaptainJiNX's version, but they'll get you the same result.
+
+### 4. Download VICE.
 
 Guess I should include this. Might be important. 
 
@@ -39,7 +49,7 @@ You could use any emulator, but VICE is recommended because it comes bundled wit
 
 They include ``petcat`` to convert plaintext code to tokenised code and vice versa, and ``c1541`` which lets you work on d64 files (disk images).
 
-### 4. Convert your code back and forth (tokenised/non-tokenised).
+### 5. Convert your code back and forth (tokenised/non-tokenised).
 
 Non-tokenised code is useful so you can edit it in VSCode.
 
@@ -51,7 +61,7 @@ I have videos both conversions:
 
  - [How to convert plaintext c64 BASIC source to a running program](https://www.youtube.com/watch?v=SBUEi_OYz84)
 
-### 5. Convert and run your programs from right inside VSCode.
+### 6. Convert and run your programs from right inside VSCode.
 
 It's possible to set up the VSCode shortcut keys to do your compiling and running, but I'm command line guy.
 
