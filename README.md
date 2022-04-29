@@ -4,10 +4,9 @@ my c=64 files and code
 This repo contains code and files I'm working on for the Commodore 64.
 
 # Not A Wizard
-My Youtube channel (Not a Wizard) is at:
-https://www.youtube.com/channel/UC8M0VmsO-i-8aDJNJH9NWXg
 
-Videos will complement the files here.
+Files here will complement my Youtube channel ([Not a Wizard](https://www.youtube.com/channel/UC8M0VmsO-i-8aDJNJH9NWXg)).
+
 
 # How to set up a modern computer to code for the c64
 
@@ -73,4 +72,28 @@ I need coffee.
 
 Hope that's been helpful and I welcome you to the club of allegedly masochistic retro fantatics who play with 40 year old technology for fun! :D
 
+# Other links
+
+### Reference links
+
+ - [C64 Wiki](https://www.c64-wiki.com/)
+ - [Memory Map](https://sta.c64.org/cbm64mem.html)
+ - [Kernal functions](https://sta.c64.org/cbm64krnfunc.html) - built-in kernal system functions you can call from your asm programs
+ - [Bombjack Commodore Archive](https://commodore.bombjack.org/commodore/index.htm) - massive archive of software, books, & mags
+
+### Recommended books
+
+ - Commodore 64 Programmers Reference Guide, *Commodore Business Machines*
+ - Machine Language for the Commodore 64 and other Commodore Computers, *Jim Butterfield*
+
+### Assembly tools
+
+ - [Spritemate](https://www.youtube.com/channel/UC8M0VmsO-i-8aDJNJH9NWXg) - web based sprite editor
+ - [PETSCII Editor](http://petscii.krissz.hu/) - web based character/screen/sprite editor
+ - [VChar64](https://github.com/ricardoquesada/vchar64) - char editor, Linux/Win/Mac
+ - [Turbo Assembler 5.2/FLT](https://codebase64.org/doku.php?id=base:turboassembler_5.2_bacchus_version) - Bacchus/FLT version of TurboAssembler 5.2 (``SYS 9*4096`` to start)
+
+### BASIC tools
+
+ - [LOADSTAR BASIC tools](https://www.my64.in.nf/doku.php?id=reviews:basictools) - mutiple BASIC tools collected from LOADSTAR magazine
 
