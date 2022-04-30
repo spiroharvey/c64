@@ -3,16 +3,22 @@
    15 g=16
    20 dim b(g,g)
 
-
+24 rem set up board
 25 print"{clr}{white}                iceberg":print
+
+29 rem icebergs
    30 n=int(rnd(1)*g+4)
    40 for i=1 to n
    50 b(int(rnd(1)*g+1),int(rnd(1)*g+1))=42
    60 next
+
+69 rem enemy
    70 sx=int(rnd(1)*g+1)
    80 sy=int(rnd(1)*g+1)
    90 if b(sx,sy)<>0 then 70
   100 b(sx,sy)=90
+
+109 rem player
   110 yx=int(rnd(1)*g+1)
   120 yy=int(rnd(1)*g+1)
   130 if b(yx,yy)<>0 then 110
@@ -20,7 +26,7 @@
 
 
 
-
+159 rem print out board
   160 for y=1 to g
   170 for x=1 to g
   
@@ -36,6 +42,7 @@
   230 b(yx,yy)=0
   240 print"{white}direction (n,s,e,w) ";
 
+249 rem ** main loop
 250 get d$:if d$="" then 250
 
 252 zc$="{blue}."
