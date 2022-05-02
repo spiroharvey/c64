@@ -5,7 +5,7 @@ This repo contains code and files I'm working on for the Commodore 64.
 
 # Not A Wizard
 
-Files here will complement my Youtube channel ([Not a Wizard](https://www.youtube.com/channel/UC8M0VmsO-i-8aDJNJH9NWXg)).
+Files here will complement my Youtube channel ([Not a Wizard](https://www.youtube.com/c/NotaWizard)).
 
 
 # How to set up a modern computer to code for the c64
