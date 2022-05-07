@@ -4,7 +4,7 @@ c=64 conversion by Spiro Harvey, 2022
 
 The first version of Wordle to be released on the Commodore64! (first released Jan 5, 2022)
 
-![Wordle C64 v1.2 Title Screen](img/Wordle_v12_title.png)
+![Wordle C64 v1.2 Title Screen](img/wordle13_title.png)
 
 
 ## HOW TO RUN IT
