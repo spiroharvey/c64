@@ -5,7 +5,7 @@ This repo contains code and files I'm working on for the Commodore 64.
 
 # Not A Wizard
 
-Files here will complement my Youtube channel ([Not a Wizard](https://www.youtube.com/c/NotaWizard)).
+Files here will complement my Youtube channel ([Not a Wizard](https://www.youtube.com/@NotaWizard)).
 
 
 # How to set up a modern computer to code for the c64
@@ -83,8 +83,8 @@ Hope that's been helpful and I welcome you to the club of allegedly masochistic 
 
 ### Recommended books
 
- - Commodore 64 Programmers Reference Guide, *Commodore Business Machines*
- - Machine Language for the Commodore 64 and other Commodore Computers, *Jim Butterfield*
+ - [Commodore 64 Programmers Reference Guide, by Commodore Business Machines](https://archive.org/details/c64-programmer-ref)
+ - [Machine Language for the Commodore 64 and other Commodore Computers, by Jim Butterfield](https://archive.org/details/Machine_Language_for_the_Commodore_64_and_Other_Commodore_Computers_1984_Brady_Communications)
 
 ### Assembly tools
 
