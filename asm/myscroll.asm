@@ -7,7 +7,10 @@ BasicUpstart(init)
 .var colbase = $d800
 .var screen = $0400 + (40*23)
 .var colmem = $d800 + (40*23)
-.var music = LoadSid("Purple.sid")
+
+// music is Purple by Richard Bayliss/TND:
+// https://csdb.dk/sid/?id=2438
+.var music = LoadSid("music/Purple.sid")
 
 	* = $1ce0 "Program Init"
 init:

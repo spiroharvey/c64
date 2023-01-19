@@ -1,15 +1,19 @@
 // Spiro's template file for Kickassembler format c=64 asm 
 	* = $0801 "Basic Upstart"
 BasicUpstart(init)
-#import "../inc/macro.inc"
-.var music = LoadSid("Badgers.sid")
+#import "inc/macro.inc"
+
+
+// music is Badgers Badgers Everywhere, by Mitch:
+// https://csdb.dk/sid/?id=18581
+.var music = LoadSid("music/Badgers.sid")
 
 
 // the const is a template which ignores the first 2 bytes in the 
 // loaded binary file (which hold the start address of the file)
 // charset file downloaded from: http://home-2002.code-cop.org/c64/font_12.html
 .const CHAR_MAP = "C64FILE"
-.var charmap = LoadBinary("../charset/lady_tut.64c", CHAR_MAP)
+.var charmap = LoadBinary("charset/lady_tut.64c", CHAR_MAP)
 
 
 // use these vars so I can shift the text around

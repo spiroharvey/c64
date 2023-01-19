@@ -17,16 +17,18 @@ Previous version:
 */
 	* = $0801 "Basic Upstart"
 BasicUpstart(init)
-#import "../inc/macro.inc"
-.var music = LoadSid("Badgers.sid")
+#import "inc/macro.inc"
+
+// music is Badgers Badgers Everywhere by Mitch:
+// https://csdb.dk/sid/?id=18581
+.var music = LoadSid("music/Badgers.sid")
 
 
 // the const is a template which ignores the first 2 bytes in the 
 // loaded binary file (which hold the start address of the file)
 // charset file downloaded from: http://home-2002.code-cop.org/c64/font_12.html
 .const BIN = "C64FILE"
-.var charmap = LoadBinary("../charset/lady_tut.64c", BIN)
-.var image = LoadBinary("gfx/idle_cosowi_yuv.kla", BIN)
+.var charmap = LoadBinary("charset/lady_tut.64c", BIN)
 
 // make your own logo with:
 // c64 Characterset logo generator: 
@@ -35,6 +37,7 @@ BasicUpstart(init)
 // RetroPixels online (convert images to c64 Koala format): 
 // https://www.micheldebree.nl/retropixels/
 
+.var image = LoadBinary("gfx/idle_cosowi_yuv.kla", BIN)
 
 // use these vars so I can shift the text around
 .var screenbase = $0400
